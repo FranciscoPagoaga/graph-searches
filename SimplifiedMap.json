@@ -1,0 +1,262 @@
+{
+    "cities": [
+        {
+            "name": "La Laguna"
+        },
+        {
+            "name": "Cerro Grande"
+        },
+        {
+            "name": "El Centro"
+        },
+        {
+            "name": "San Felipe"
+        },
+        {
+            "name": "21 de Octubre"
+        },
+        {
+            "name": "El Carrizal"
+        },
+        {
+            "name": "San Miguel"
+        },
+        {
+            "name": "Santa Fe"
+        },
+        {
+            "name": "Concepcion"
+        },
+        {
+            "name": "Morazan"
+        },
+        {
+            "name": "Centro America"
+        },
+        {
+            "name": "El Prado"
+        },
+        {
+            "name": "Lomas del Guijarro"
+        },
+        {
+            "name": "Miramontes"
+        },
+        {
+            "name": "Tiloarque"
+        },
+        {
+            "name": "Miraflores"
+        },
+        {
+            "name": "Florencia Sur"
+        },
+        {
+            "name": "El Hato"
+        },
+        {
+            "name": "Col. San Jose del Pedregal"
+        },
+        {
+            "name": "Col. 15 de Septiembre"
+        },
+        {
+            "name": "Aleman"
+        },
+        {
+            "name": "Kennedy"
+        }
+    ],
+    "connections": [
+        {
+            "cityA": "Cerro Grande",
+            "cityB": "La Laguna",
+            "weight": 3.1
+        },
+        {
+            "cityA": "Cerro Grande",
+            "cityB": "El Centro",
+            "weight": 4.0
+        },
+        {
+            "cityA": "La Laguna",
+            "cityB": "Santa Fe",
+            "weight": 1.4
+        },
+        {
+            "cityA": "El Centro",
+            "cityB": "San Felipe",
+            "weight": 2.7
+        },
+        {
+            "cityA": "El Centro",
+            "cityB": "Concepcion",
+            "weight": 2.1
+        },
+        {
+            "cityA": "El Centro",
+            "cityB": "Morazan",
+            "weight": 2.3
+        },
+        {
+            "cityA": "El Centro",
+            "cityB": "Concepcion",
+            "weight": 2.1
+        },
+        {
+            "cityA": "La Laguna",
+            "cityB": "El Carrizal",
+            "weight": 1.2
+        },
+        {
+            "cityA": "Centro America",
+            "cityB": "El Carrizal",
+            "weight": 1.8
+        },
+        {
+            "cityA": "Santa Fe",
+            "cityB": "Centro America",
+            "weight": 3.2
+        },
+        {
+            "cityA": "Santa Fe",
+            "cityB": "Concepcion",
+            "weight": 2.2
+        },
+        {
+            "cityA": "Concepcion",
+            "cityB": "Centro America",
+            "weight": 4.0
+        },
+        {
+            "cityA": "Concepcion",
+            "cityB": "El Prado",
+            "weight": 1.3
+        },
+        {
+            "cityA": "Concepcion",
+            "cityB": "Morazan",
+            "weight": 2.3
+        },
+        {
+            "cityA": "Morazan",
+            "cityB": "San Felipe",
+            "weight": 2.1
+        },
+        {
+            "cityA": "Morazan",
+            "cityB": "Miramontes",
+            "weight": 2.0
+        },
+        {
+            "cityA": "San Felipe",
+            "cityB": "Lomas del Guijarro",
+            "weight": 1.5
+        },
+        {
+            "cityA": "San Felipe",
+            "cityB": "21 de Octubre",
+            "weight": 1.6
+        },
+        {
+            "cityA": "San Miguel",
+            "cityB": "21 de Octubre",
+            "weight": 2.0
+        },
+        {
+            "cityA": "San Miguel",
+            "cityB": "Florencia Sur",
+            "weight": 4.0
+        },
+        {
+            "cityA": "Lomas del Guijarro",
+            "cityB": "Miramontes",
+            "weight": 2.3
+        },
+        {
+            "cityA": "Lomas del Guijarro",
+            "cityB": "Florencia Sur",
+            "weight": 3.5
+        },
+        {
+            "cityA": "Centro America",
+            "cityB": "Tiloarque",
+            "weight": 3.1
+        },
+        {
+            "cityA": "El Prado",
+            "cityB": "Tiloarque",
+            "weight": 2.2
+        },
+        {
+            "cityA": "El Prado",
+            "cityB": "Miramontes",
+            "weight": 0.75
+        },
+        {
+            "cityA": "El Prado",
+            "cityB": "Miraflores",
+            "weight": 2.7
+        },
+        {
+            "cityA": "Miramontes",
+            "cityB": "Miraflores",
+            "weight": 3.5
+        },
+        {
+            "cityA": "El Hato",
+            "cityB": "Florencia Sur",
+            "weight": 1.8
+        },
+        {
+            "cityA": "Miraflores",
+            "cityB": "Tiloarque",
+            "weight": 3.4
+        },
+        {
+            "cityA": "Miraflores",
+            "cityB": "Col. San Jose del Pedregal",
+            "weight": 4.0
+        },
+        {
+            "cityA": "Miraflores",
+            "cityB": "Aleman",
+            "weight": 4.0
+        },
+        {
+            "cityA": "Miraflores",
+            "cityB": "Kennedy",
+            "weight": 2.0
+        },
+        {
+            "cityA": "Kennedy",
+            "cityB": "El Hato",
+            "weight": 3.1
+        },
+        {
+            "cityA": "Kennedy",
+            "cityB": "Aleman",
+            "weight": 3.0
+        },
+        {
+            "cityA": "Aleman",
+            "cityB": "Col. San Jose del Pedregal",
+            "weight": 2.3
+        },
+        {
+            "cityA": "Col. 15 de Septiembre",
+            "cityB": "Col. San Jose del Pedregal",
+            "weight": 2.4
+        },
+        {
+            "cityA": "Tiloarque",
+            "cityB": "Col. San Jose del Pedregal",
+            "weight": 1.8
+        },
+        {
+            "cityA": "Col. 15 de Septiembre",
+            "cityB": "Tiloarque",
+            "weight": 3.0
+        }
+    ]
+}
