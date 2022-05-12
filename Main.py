@@ -1,14 +1,14 @@
 from Undirected_Graph import Vertex, Graph
 import json
 
-def getJson():
-    with open("SimplifiedMap.json") as jsonFile:
+def getJson(nameArch):
+    with open(str(nameArch)) as jsonFile:
         jsonObject = json.load(jsonFile)
         jsonFile.close()
     return jsonObject
 
-def createGraph(graph):
-    jsonObject = getJson()
+def createGraph(graph, nameArch):
+    jsonObject = getJson(nameArch)
 
     for name in jsonObject['cities']:
         v= Vertex(name.get('name'))
@@ -22,5 +22,9 @@ def createGraph(graph):
 
 if __name__ == '__main__':
     graph = Graph()
-    createGraph(graph)
+    nameArch = input("Ingrese el nombre del archivo: ")
+    createGraph(graph, nameArch)
     graph.printGraph()
+    iniSucursal = input("Ingrese la sucursal inicial: ")
+    listaEntregas = input("Ingrese la nombres de las ubicaciones de entrega: ")
+    CostoMax = input("Ingrese el costo maximo que puede tener: ")
